@@ -1,0 +1,19 @@
+
+.nav a.active {
+    color: orange;
+    border-radius:50px;
+}
+.nav a:hover {
+    background-color: orange;
+    color: black;
+    border-radius:50px;
+}
+
+html body {
+    background-color:#319FDA;
+}
+
+#foto1 {
+
+margin-right:10px;
+}

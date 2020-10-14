@@ -1,0 +1,43 @@
+body, html{
+    font-family: 'Ubuntu', sans-serif;
+    background-color:slategrey;
+}
+#titel{
+    position: relative;
+    left:30px;
+    top:70px;
+    color:snow;
+}
+
+.film {
+    
+    position: relative;
+    left:650px;
+    top:100px;
+}
+
+.foto img {
+    width:260px;
+    height:200px;
+    margin:10px;
+    padding:10px;
+    position: relative;
+    left:200px;
+    top:100px;
+}
+
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:rgb(13, 138, 221);
+    text-align: center;
+    padding: 10px 30px;
+    font-size: 25px;
+    color: white;
+}
+
+footer i{
+    padding: 30px;
+}

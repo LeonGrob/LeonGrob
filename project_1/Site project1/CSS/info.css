@@ -1,0 +1,64 @@
+body, html{
+    font-family: 'Ubuntu', sans-serif;
+    background-color: slategrey;
+}
+#titel {
+    color: snow;
+    position: relative;
+    left:55px;
+    top:70px;
+}
+#text {
+    color: snow;
+    position: relative;
+    left:75px;
+    top:80px;
+    width: 500px;
+    
+}
+#foto1 {
+    position:relative;
+    left:750px;
+    top:-650px;
+    
+}
+
+#foto2 {
+    position:relative;
+    left:750px;
+    top:-648px;
+}
+
+#foto3 {
+    position:relative;
+    left:1060px;
+    top:-1058px;
+}
+
+#foto4 {
+    position:relative;
+    left:1060px;
+    top:-1055px;
+}
+
+#foto5 {
+    position:relative;
+    left:750px;
+    top:-1053px;
+}
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:rgb(13, 138, 221);
+    text-align: center;
+    padding: 10px 30px;
+    font-size: 25px;
+    color: white;
+}
+
+footer i{
+    padding: 30px;
+}
+

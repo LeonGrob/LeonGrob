@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+ <head>
+    <meta charset="UTF-8">
+    <meta name="copyright" content="copyright">
+    <meta name="description" content="List">
+    <meta name="author" content="Leon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/contact.css">
+    <link rel="stylesheet" href="CSS/menu.css">
+ </head>
+ <body>
+   <ul class="block-menu">
+      <li><a href="index.html" class="three-d">
+          Home
+          <span aria-hidden="true" class="three-d-box">
+              <span class="front">Home</span>
+              <span class="back">Home</span>
+          </span>
+      </a></li>
+      <li><a href="info.html" class="three-d">
+          Info
+          <span aria-hidden="true" class="three-d-box">
+              <span class="front">Info</span>
+              <span class="back">Info</span>
+          </span>
+      </a></li>
+      <li><a href="stappenplan.html" class="three-d">
+          Stappenplan
+          <span aria-hidden="true" class="three-d-box">
+              <span class="front">Stappenplan</span>
+              <span class="back">Stappenplan</span>
+          </span>
+      </a></li>
+      <li><a href="projectinfo.html" class="three-d">
+         Project Info
+         <span aria-hidden="true" class="three-d-box">
+             <span class="front">Project Info</span>
+             <span class="back">Project Info</span>
+         </span>
+     </a></li>
+     <li><a href="contact.html" class="three-d">
+         Contact
+         <span aria-hidden="true" class="three-d-box">
+             <span class="front">Contact</span>
+             <span class="back">Contact</span>
+         </span>
+     </a></li>
+  </ul>
+ <main>
+    <div class="container">
+        <div style="text-align:center">
+         <div id="titel"><h1>Contact</h1></div> 
+          
+        </div>
+        <div class="row">
+          <div class="column">
+            <img src="foto/2.jpg" style="width:70%">
+          </div>
+          <div class="column">
+            <!--php document -->
+            <form action="php">
+              <label for="fname">Voornaam</label>
+              <input type="text" id="fname" name="First Name" placeholder="Je Voornaam..">
+              <label for="lname">Achternaam</label>
+              <input type="text" id="lname" name="Last Name" placeholder="Je Achternaam..">
+              <label for="country">Land</label>
+              <select id="country" name="country">
+                <option value="australia">Nederland</option>
+                <option value="canada">Belgie</option>
+                <option value="usa">USA</option>
+                <option value="australia">Duitsland</option>
+                <option value="canada">Frankrijk</option>
+                <option value="usa">Spanje</option>
+              </select>
+              <label for="subject">Text</label>
+              <textarea id="subject" name="subject" placeholder="Schrijf iets.." style="height:170px"></textarea>
+              <input type="submit" value="Verzenden">
+            </form>
+          </div>
+        </div>
+      </div>
+
+ </main>
+
+
+ 
+  <footer>
+    <i> &copy; 2020</i><i> 231118@student.scalda.nl</i>
+  </footer>
+ </body>
+</html>

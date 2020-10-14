@@ -1,0 +1,13 @@
+html body {
+    background-color:#319FDA;
+}
+
+.nav a.active {
+    color: orange;
+    border-radius:50px;
+}
+.nav a:hover {
+    background-color: orange;
+    color: black;
+    border-radius:50px;
+}
